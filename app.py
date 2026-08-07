@@ -85,7 +85,7 @@ with st.sidebar:
     # show macro F1 next to each model name if metadata is available
     meta = {}
     if os.path.exists(MODEL_META_PATH):
-        with open(MODEL_META_PATH) as f:
+        with open(MODEL_META_PATH, encoding="utf-8-sig") as f:
             meta = json.load(f)
 
     model_labels = {
