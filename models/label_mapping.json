@@ -1,0 +1,16 @@
+{
+  "label2id": {
+    "Exclusivity": 0,
+    "Governing Law": 1,
+    "Liability": 2,
+    "Payment": 3,
+    "Termination": 4
+  },
+  "id2label": {
+    "0": "Exclusivity",
+    "1": "Governing Law",
+    "2": "Liability",
+    "3": "Payment",
+    "4": "Termination"
+  }
+}

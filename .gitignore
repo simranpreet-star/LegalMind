@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+data/CUAD_v1.json
+data/*.csv
+data/*.png
+chroma_db/
+reports/
+# Keep models/*.joblib (deployment artifacts) but ignore transformer checkpoints
+models/bert-*/
+models/legal-bert-*/
+models/inlegalbert-*/
+models/incaselawbert-*/
+models/checkpoint-*/

@@ -1,0 +1,11 @@
+﻿{
+    "XGBoost":  {
+                    "macro_f1":  0.8989
+                },
+    "Logistic Regression":  {
+                                "macro_f1":  0.9276
+                            },
+    "Random Forest":  {
+                          "macro_f1":  0.8999
+                      }
+}
