@@ -163,4 +163,13 @@ pip install sentence-transformers chromadb
 - **Risk scores are keyword heuristics, not legal judgments.** Rule coverage on a given document may be low.
 - **Risk depends on the classifier.** Rules are chosen by predicted category, so a misclassified clause is checked against the wrong rules, and Unclassified clauses are never risk-checked or rewritten.
 - **Small test set.** 363 test clauses in total, and only 27 for Termination.
--
+- **Jurisdiction.** Training data is US commercial contracts (CUAD); performance on Indian or other contracts is expected to be lower.
+- **Macro F1 is flattered** by the near-trivial Governing Law class — use the per-class table.
+- **Retrieval is not yet in the app** (see *Experimental* section).
+- This is a research prototype. **Do not rely on it as legal advice.**
+
+---
+
+## License
+
+MIT — see `LICENSE`. CUAD dataset: CC BY 4.0, © The Atticus Project.
